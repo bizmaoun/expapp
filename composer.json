@@ -1,0 +1,16 @@
+{
+    "name": "dev-l/expapp",
+    "description": "php expannies app",
+    "type": "project",
+    "authors": [{
+        "name": "bizmaoun",
+        "email": "bizmaounl2007@gmail.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/Framework",
+            "App\\": "src/App"
+        }
+    }
+}
